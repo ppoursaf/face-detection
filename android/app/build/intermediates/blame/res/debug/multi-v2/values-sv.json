@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/paulpoursafa/Desktop/AwesomeProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/Users/paulpoursafa/Desktop/face-detection/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/res/values-sv/values.xml",
