@@ -1,11 +1,14 @@
 
-import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState, useEffect, Component } from 'react';
+import { StyleSheet, Text, View, ImageBackground, Image } from 'react-native';
 
 import { Container, Content } from 'native-base'
 import Swiper from 'react-native-swiper'
 
 import CameraComponent from './Camera'
+
+import ViewShot, { captureScreen } from "react-native-view-shot";
+import CameraRoll from "@react-native-community/cameraroll";
 
 
 const styles = StyleSheet.create({
@@ -19,23 +22,24 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 30,
     fontWeight: 'bold',
-
-  }
+  },
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center"
+  },
 })
+
+
+
 
 export default function App() {
   const [scrollEnabled, setScrollEnabled] = useState(true)
+  const [picture, setPicture] = useState({uri:"https://face-detection-aze.herokuapp.com/7680336d-06ee-4578-b725-0928aabf6a21.jpg.png"})
 
-  /*const verticalScroll = (index) => {
-      if (index !== 1) {
-          setScrollEnabled(false)
-      }
-      else {
-          setScrollEnabled(true)
-      }
-  }*/
 
   console.log(scrollEnabled)
+
 
   return (
     <Container>
@@ -45,8 +49,12 @@ export default function App() {
           showsPagination={false}
           index={1}
         >
-          <View style={styles.slideDefault} >
-            <Text style={styles.text}> Chat </Text>
+          <View  style={{ flex: 1 }}>
+            <Image
+              style={styles.image}
+              source={picture}
+            />
+
           </View>
           <Swiper
             loop={false}
@@ -59,10 +67,11 @@ export default function App() {
               <Text style={styles.text}> Search </Text>
             </View>
             <View style={{ flex: 1 }}>
-              <CameraComponent />
+              <CameraComponent setPicture={setPicture} picture={picture} />
             </View>
             <View style={styles.slideDefault}>
               <Text style={styles.text}> Memories </Text>
+              {console.log("pictureee", picture)}
             </View>
           </Swiper>
           <View style={styles.slideDefault}>

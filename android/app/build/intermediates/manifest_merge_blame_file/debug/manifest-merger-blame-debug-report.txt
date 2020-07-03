@@ -6,103 +6,107 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
+8-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
+9-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/debug/AndroidManifest.xml:5:22-75
-12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Required -->
-12-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include this only if you are planning to use the camera roll -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <!-- Required -->
+13    <uses-permission android:name="android.permission.CAMERA" />
 13-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:6:5-65
 13-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:6:22-62
-14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:9:5-80
-14-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:9:22-77
-15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:10:5-81
-15-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:10:22-78
-16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-16-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:11:5-71
-16-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:11:22-68
-17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-17-->[com.facebook.flipper:flipper:0.33.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/f50a9cd0388968c76878d2f531d1dfc6/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
-17-->[com.facebook.flipper:flipper:0.33.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/f50a9cd0388968c76878d2f531d1dfc6/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
-18
-19    <uses-feature
-19-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
-20        android:name="android.hardware.camera"
-20-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
-21        android:required="false" />
-21-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
-22    <uses-feature
-22-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
-23        android:name="android.hardware.camera.autofocus"
-23-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
-24        android:required="false" />
-24-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
-25
-26    <application
-26-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:13:5-32:19
-27        android:name="com.awesomeproject.MainApplication"
-27-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:14:7-38
-28        android:allowBackup="false"
-28-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:18:7-34
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
-30        android:debuggable="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:16:7-41
-32        android:label="@string/app_name"
-32-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:15:7-39
-33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:17:7-52
-34        android:theme="@style/AppTheme"
-34-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:19:7-38
-35        android:usesCleartextTraffic="true" >
-35-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/debug/AndroidManifest.xml:7:18-53
-36        <activity
-36-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:20:7-30:18
-37            android:name="com.awesomeproject.MainActivity"
-37-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:21:9-37
-38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-38-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:23:9-86
-39            android:label="@string/app_name"
-39-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:22:9-41
-40            android:launchMode="singleTask"
-40-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:24:9-40
-41            android:windowSoftInputMode="adjustResize" >
-41-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:25:9-51
-42            <intent-filter>
-42-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:26:9-29:25
-43                <action android:name="android.intent.action.MAIN" />
-43-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:27:13-65
-43-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:27:21-62
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:28:13-73
-45-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:28:23-70
-46            </intent-filter>
-47        </activity>
-48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-48-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:31:7-84
-48-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:31:17-81
-49        <activity
-49-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-50-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-51            android:exported="false"
-51-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-52-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-53
-54        <meta-data
-54-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
-55            android:name="com.google.android.gms.version"
-55-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
-56            android:value="@integer/google_play_services_version" />
-56-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
-57    </application>
-58
-59</manifest>
+14
+15    <!-- Include this only if you are planning to use the camera roll -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:9:5-80
+16-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:10:5-81
+17-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:11:5-71
+18-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:11:22-68
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[com.facebook.flipper:flipper:0.33.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/f50a9cd0388968c76878d2f531d1dfc6/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+19-->[com.facebook.flipper:flipper:0.33.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/f50a9cd0388968c76878d2f531d1dfc6/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+20
+21    <uses-feature
+21-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[:react-native-camera] /Users/paulpoursafa/Desktop/face-detection/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+27
+28    <application
+28-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:14:5-36:19
+29        android:name="com.awesomeproject.MainApplication"
+29-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:15:7-38
+30        android:allowBackup="false"
+30-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:19:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:17:7-41
+34        android:label="@string/app_name"
+34-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:16:7-39
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:22:7-67
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:18:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:20:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:21:7-42
+39        <activity
+39-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:24:7-34:18
+40            android:name="com.awesomeproject.MainActivity"
+40-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:25:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:27:9-86
+42            android:label="@string/app_name"
+42-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:26:9-41
+43            android:launchMode="singleTask"
+43-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:28:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:29:9-51
+45            <intent-filter>
+45-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:30:9-33:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:31:13-65
+46-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:31:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:32:13-73
+48-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:32:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+51-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:35:7-84
+51-->/Users/paulpoursafa/Desktop/face-detection/android/app/src/main/AndroidManifest.xml:35:17-81
+52        <activity
+52-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:16.0.1] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/eafbbb21efbf5eff78517f8ffb38ceb0/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+56
+57        <meta-data
+57-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+58            android:name="com.google.android.gms.version"
+58-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.google.android.gms:play-services-basement:16.1.0] /Users/paulpoursafa/.gradle/caches/transforms-2/files-2.1/2663ad621655fdc4435e1e748d16fd76/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+60    </application>
+61
+62</manifest>

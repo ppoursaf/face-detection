@@ -26,17 +26,15 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
+<key>NSExceptionDomains</key>
+  <dict>
+  <key>localhost</key>
+  <dict>
+    <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+    <true/>
+  </dict>
+  </dict>
+</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
@@ -70,3 +68,4 @@
 	<string>Your message to user when the microphone is accessed for the first time</string>
 </dict>
 </plist>
+
